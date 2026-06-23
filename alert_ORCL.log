@@ -1,0 +1,100 @@
+2026-06-20T02:11:05.000000+09:00
+ORA-01555: snapshot too old: rollback segment number 12 with name "_SYSSMU12_" too small
+2026-06-20T06:00:02.000000+09:00
+Starting ORACLE instance (normal) (OS id: 4821)
+2026-06-20T06:00:08.000000+09:00
+Database mounted in Exclusive Mode
+2026-06-20T06:00:15.000000+09:00
+Completed: ALTER DATABASE OPEN
+2026-06-20T06:30:00.000000+09:00
+Thread 1 advanced to log sequence 14213 (LGWR switch)
+2026-06-20T07:00:00.000000+09:00
+TABLE SYS.WRH$_ACTIVE_SESSION_HISTORY: ADDED INTERVAL PARTITION
+2026-06-20T07:29:00.000000+09:00
+TABLE SYS.WRH$_ACTIVE_SESSION_HISTORY: ADDED INTERVAL PARTITION
+2026-06-20T08:07:00.000000+09:00
+Resize operation completed for file# 3, filesize 512M
+2026-06-20T08:46:00.000000+09:00
+Resize operation completed for file# 3, filesize 2048M
+2026-06-20T09:14:00.000000+09:00
+Resize operation completed for file# 3, filesize 512M
+2026-06-20T09:37:00.000000+09:00
+Archived Log entry 14219 added for T-1.S-14219 ID 0x6a3f LAD:1
+2026-06-20T10:01:00.000000+09:00
+Thread 1 advanced to log sequence 14220 (LGWR switch)
+2026-06-20T10:02:00.000000+09:00
+ORA-00060: Deadlock detected. More info in file /u01/diag/rdbms/orcl/orcl/trace/orcl_ora_10233.trc.
+2026-06-20T10:02:51.000000+09:00
+ORA-00060: Deadlock detected. More info in file /u01/diag/rdbms/orcl/orcl/trace/orcl_ora_10241.trc.
+2026-06-20T10:03:27.000000+09:00
+ORA-12516: TNS:listener could not find available handler with matching protocol stack
+2026-06-20T10:03:48.000000+09:00
+ORA-12519: TNS:no appropriate service handler found
+2026-06-20T10:03:55.000000+09:00
+ORA-12516: TNS:listener could not find available handler with matching protocol stack
+2026-06-20T10:04:13.000000+09:00
+ORA-00060: Deadlock detected. More info in file /u01/diag/rdbms/orcl/orcl/trace/orcl_ora_10258.trc.
+2026-06-20T10:04:29.000000+09:00
+ORA-12519: TNS:no appropriate service handler found
+2026-06-20T10:04:48.000000+09:00
+ORA-12516: TNS:listener could not find available handler with matching protocol stack
+2026-06-20T10:05:16.000000+09:00
+ORA-04031: unable to allocate 4160 bytes of shared memory ("shared pool","select ...","sga heap")
+2026-06-20T10:05:51.000000+09:00
+ORA-12516: TNS:listener could not find available handler with matching protocol stack
+2026-06-20T10:32:00.000000+09:00
+Thread 1 advanced to log sequence 14221 (LGWR switch)
+2026-06-20T11:08:00.000000+09:00
+Archived Log entry 14222 added for T-1.S-14222 ID 0x6a3f LAD:1
+2026-06-20T11:26:00.000000+09:00
+Resize operation completed for file# 3, filesize 2048M
+2026-06-20T12:05:00.000000+09:00
+Thread 1 advanced to log sequence 14224 (LGWR switch)
+2026-06-20T12:24:00.000000+09:00
+Archived Log entry 14225 added for T-1.S-14225 ID 0x6a3f LAD:1
+2026-06-20T13:01:00.000000+09:00
+TABLE SYS.WRH$_ACTIVE_SESSION_HISTORY: ADDED INTERVAL PARTITION
+2026-06-20T13:25:00.000000+09:00
+Archived Log entry 14227 added for T-1.S-14227 ID 0x6a3f LAD:1
+2026-06-20T14:03:41.000000+09:00
+ORA-00060: Deadlock detected. More info in file /u01/diag/rdbms/orcl/orcl/trace/orcl_ora_9912.trc.
+2026-06-20T14:04:00.000000+09:00
+Resize operation completed for file# 3, filesize 512M
+2026-06-20T14:29:00.000000+09:00
+Archived Log entry 14229 added for T-1.S-14229 ID 0x6a3f LAD:1
+2026-06-20T14:48:00.000000+09:00
+Thread 1 advanced to log sequence 14230 (LGWR switch)
+2026-06-20T15:22:00.000000+09:00
+Thread 1 advanced to log sequence 14231 (LGWR switch)
+2026-06-20T15:41:00.000000+09:00
+Resize operation completed for file# 3, filesize 512M
+2026-06-20T16:14:00.000000+09:00
+Archived Log entry 14233 added for T-1.S-14233 ID 0x6a3f LAD:1
+2026-06-20T16:42:00.000000+09:00
+Thread 1 advanced to log sequence 14234 (LGWR switch)
+2026-06-20T17:00:00.000000+09:00
+Archived Log entry 14235 added for T-1.S-14235 ID 0x6a3f LAD:1
+2026-06-20T17:19:00.000000+09:00
+Resize operation completed for file# 3, filesize 2048M
+2026-06-20T17:58:00.000000+09:00
+Archived Log entry 14237 added for T-1.S-14237 ID 0x6a3f LAD:1
+2026-06-20T18:18:00.000000+09:00
+Thread 1 advanced to log sequence 14238 (LGWR switch)
+2026-06-20T18:47:00.000000+09:00
+Resize operation completed for file# 3, filesize 2048M
+2026-06-20T19:09:00.000000+09:00
+Archived Log entry 14240 added for T-1.S-14240 ID 0x6a3f LAD:1
+2026-06-20T19:38:00.000000+09:00
+TABLE SYS.WRH$_ACTIVE_SESSION_HISTORY: ADDED INTERVAL PARTITION
+2026-06-20T20:00:00.000000+09:00
+Thread 1 advanced to log sequence 14242 (LGWR switch)
+2026-06-20T20:24:00.000000+09:00
+Resize operation completed for file# 3, filesize 1024M
+2026-06-20T20:42:00.000000+09:00
+Resize operation completed for file# 3, filesize 512M
+2026-06-20T21:16:00.000000+09:00
+TABLE SYS.WRH$_ACTIVE_SESSION_HISTORY: ADDED INTERVAL PARTITION
+2026-06-20T21:46:00.000000+09:00
+Archived Log entry 14246 added for T-1.S-14246 ID 0x6a3f LAD:1
+2026-06-20T23:47:12.000000+09:00
+ORA-01652: unable to extend temp segment by 128 in tablespace TEMP

@@ -1,0 +1,1580 @@
+2026-06-20 02:30:05,000 ERROR [scheduler-1] c.e.service.PaymentService - Batch settlement failed for file=settle_20260619.csv
+java.lang.NullPointerException: Cannot invoke "String.trim()" because "row[3]" is null
+	at c.e.service.PaymentService.parseRow(PaymentService.java:210)
+	at c.e.service.PaymentService.runBatch(PaymentService.java:160)
+2026-06-20 06:05:00,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Cache hit for product catalog page=19
+2026-06-20 06:05:43,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Payment authorized for order 50002
+2026-06-20 06:07:10,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Payment authorized for order 50003
+2026-06-20 06:07:35,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Healthcheck OK pool.active=11 pool.idle=6
+2026-06-20 06:09:02,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Cache hit for product catalog page=29
+2026-06-20 06:09:50,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=8 pool.idle=5
+2026-06-20 06:10:49,000 WARN  [async-task-3] c.e.service.OrderService - Retrying operation attempt=2/3
+2026-06-20 06:11:41,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Received request POST /api/orders userId=1396
+2026-06-20 06:12:30,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Order 50008 created successfully amount=45728
+2026-06-20 06:13:30,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Received request POST /api/orders userId=8297
+2026-06-20 06:14:23,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Payment authorized for order 50010
+2026-06-20 06:15:53,000 WARN  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Retrying operation attempt=3/3
+2026-06-20 06:16:25,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Received request POST /api/orders userId=8064
+2026-06-20 06:17:30,000 WARN  [async-task-3] c.e.config.DataSourceHealth - Connection pool nearing capacity active=19/20
+2026-06-20 06:17:58,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Healthcheck OK pool.active=7 pool.idle=7
+2026-06-20 06:18:45,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Order 50013 created successfully amount=7548
+2026-06-20 06:20:13,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Payment authorized for order 50014
+2026-06-20 06:21:36,000 WARN  [http-nio-8080-exec-4] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 06:23:06,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Cache hit for product catalog page=22
+2026-06-20 06:23:58,000 WARN  [http-nio-8080-exec-5] c.e.web.OrderController - Slow query detected took=2512ms threshold=1000ms
+2026-06-20 06:24:41,000 WARN  [scheduler-1] c.e.web.OrderController - Slow query detected took=2820ms threshold=1000ms
+2026-06-20 06:25:58,000 WARN  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Retrying operation attempt=2/3
+2026-06-20 06:26:55,000 WARN  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Slow query detected took=1301ms threshold=1000ms
+2026-06-20 06:27:19,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=4599
+2026-06-20 06:28:26,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=12 pool.idle=5
+2026-06-20 06:29:41,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=12
+2026-06-20 06:31:04,000 INFO  [async-task-3] c.e.web.OrderController - Received request POST /api/orders userId=5297
+2026-06-20 06:31:24,000 INFO  [scheduler-1] c.e.web.OrderController - Cache hit for product catalog page=5
+2026-06-20 06:32:47,000 WARN  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Connection pool nearing capacity active=17/20
+2026-06-20 06:33:09,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50021
+2026-06-20 06:33:42,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Healthcheck OK pool.active=12 pool.idle=7
+2026-06-20 06:34:16,000 WARN  [http-nio-8080-exec-7] c.e.service.OrderService - Connection pool nearing capacity active=16/20
+2026-06-20 06:35:10,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Received request POST /api/orders userId=9524
+2026-06-20 06:35:45,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1459
+2026-06-20 06:36:58,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Payment authorized for order 50025
+2026-06-20 06:38:14,000 INFO  [async-task-3] c.e.repository.OrderRepository - Order 50026 created successfully amount=43939
+2026-06-20 06:39:29,000 WARN  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Connection pool nearing capacity active=16/20
+2026-06-20 06:40:03,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Cache hit for product catalog page=27
+2026-06-20 06:40:39,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Healthcheck OK pool.active=9 pool.idle=3
+2026-06-20 06:41:28,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=1929
+2026-06-20 06:42:02,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Cache hit for product catalog page=18
+2026-06-20 06:43:28,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 06:44:50,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Healthcheck OK pool.active=9 pool.idle=5
+2026-06-20 06:45:13,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Received request POST /api/orders userId=2721
+2026-06-20 06:45:45,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Order 50033 created successfully amount=14303
+2026-06-20 06:46:56,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Cache hit for product catalog page=17
+2026-06-20 06:47:33,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Cache hit for product catalog page=20
+2026-06-20 06:48:43,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Cache hit for product catalog page=2
+2026-06-20 06:49:48,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Order 50037 created successfully amount=11698
+2026-06-20 06:50:42,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Cache hit for product catalog page=1
+2026-06-20 06:51:31,000 INFO  [scheduler-1] c.e.service.PaymentService - Order 50039 created successfully amount=49024
+2026-06-20 06:52:38,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50040 created successfully amount=21966
+2026-06-20 06:53:53,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 06:55:23,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Order 50041 created successfully amount=32969
+2026-06-20 06:56:36,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Cache hit for product catalog page=22
+2026-06-20 06:58:00,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Received request POST /api/orders userId=2734
+2026-06-20 06:58:35,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Order 50044 created successfully amount=6706
+2026-06-20 07:00:02,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50045
+2026-06-20 07:00:32,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Received request POST /api/orders userId=6803
+2026-06-20 07:01:06,000 INFO  [async-task-3] c.e.service.PaymentService - Payment authorized for order 50047
+2026-06-20 07:02:29,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50048
+2026-06-20 07:02:55,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:04:20,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:05:16,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7485
+2026-06-20 07:06:09,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50050 created successfully amount=27394
+2026-06-20 07:07:28,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Order 50051 created successfully amount=37088
+2026-06-20 07:08:00,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Order 50052 created successfully amount=20666
+2026-06-20 07:09:22,000 ERROR [http-nio-8080-exec-9] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:10:47,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Cache hit for product catalog page=19
+2026-06-20 07:11:37,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:12:13,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Healthcheck OK pool.active=2 pool.idle=1
+2026-06-20 07:12:54,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6110
+2026-06-20 07:13:59,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Received request POST /api/orders userId=9390
+2026-06-20 07:15:22,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Received request POST /api/orders userId=8350
+2026-06-20 07:16:30,000 WARN  [http-nio-8080-exec-11] c.e.service.PaymentService - Slow query detected took=3219ms threshold=1000ms
+2026-06-20 07:17:18,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Cache hit for product catalog page=10
+2026-06-20 07:18:03,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=5 pool.idle=1
+2026-06-20 07:18:50,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Received request POST /api/orders userId=4442
+2026-06-20 07:20:03,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:20:59,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Received request POST /api/orders userId=5613
+2026-06-20 07:22:21,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Received request POST /api/orders userId=9915
+2026-06-20 07:23:03,000 WARN  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=1544ms threshold=1000ms
+2026-06-20 07:24:09,000 INFO  [http-nio-8080-exec-6] c.e.service.OrderService - Order 50063 created successfully amount=47503
+2026-06-20 07:24:55,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=9 pool.idle=3
+2026-06-20 07:25:40,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Healthcheck OK pool.active=3 pool.idle=3
+2026-06-20 07:26:33,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Payment authorized for order 50066
+2026-06-20 07:27:32,000 INFO  [async-task-3] c.e.service.PaymentService - Order 50067 created successfully amount=9774
+2026-06-20 07:28:51,000 INFO  [async-task-3] c.e.service.OrderService - Order 50068 created successfully amount=5094
+2026-06-20 07:29:31,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=12 pool.idle=4
+2026-06-20 07:30:15,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=1487
+2026-06-20 07:30:50,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Payment authorized for order 50071
+2026-06-20 07:31:46,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Healthcheck OK pool.active=10 pool.idle=2
+2026-06-20 07:32:24,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=3656
+2026-06-20 07:33:30,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Payment authorized for order 50074
+2026-06-20 07:34:38,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Received request POST /api/orders userId=8549
+2026-06-20 07:35:46,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=14
+2026-06-20 07:36:49,000 WARN  [async-task-3] c.e.repository.OrderRepository - Slow query detected took=1766ms threshold=1000ms
+2026-06-20 07:37:49,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=9 pool.idle=7
+2026-06-20 07:38:30,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Received request POST /api/orders userId=3430
+2026-06-20 07:38:56,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Cache hit for product catalog page=2
+2026-06-20 07:40:18,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2769
+2026-06-20 07:40:52,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Received request POST /api/orders userId=9574
+2026-06-20 07:41:20,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=3
+2026-06-20 07:42:24,000 INFO  [async-task-3] c.e.repository.OrderRepository - Payment authorized for order 50083
+2026-06-20 07:42:49,000 WARN  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Connection pool nearing capacity active=16/20
+2026-06-20 07:44:01,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Cache hit for product catalog page=2
+2026-06-20 07:44:24,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Cache hit for product catalog page=19
+2026-06-20 07:45:26,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=2894
+2026-06-20 07:46:37,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Order 50087 created successfully amount=43001
+2026-06-20 07:47:07,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Payment authorized for order 50088
+2026-06-20 07:47:53,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Order 50089 created successfully amount=6037
+2026-06-20 07:48:40,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Payment authorized for order 50090
+2026-06-20 07:49:44,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 07:50:59,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Cache hit for product catalog page=21
+2026-06-20 07:51:37,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Payment authorized for order 50092
+2026-06-20 07:52:26,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=24
+2026-06-20 07:53:33,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Cache hit for product catalog page=1
+2026-06-20 07:54:30,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Order 50095 created successfully amount=1326
+2026-06-20 07:55:31,000 WARN  [http-nio-8080-exec-6] c.e.service.OrderService - Slow query detected took=2406ms threshold=1000ms
+2026-06-20 07:55:56,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8569
+2026-06-20 07:56:31,000 WARN  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Slow query detected took=1191ms threshold=1000ms
+2026-06-20 07:57:55,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Payment authorized for order 50097
+2026-06-20 07:58:58,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Payment authorized for order 50098
+2026-06-20 08:00:08,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50099 created successfully amount=42897
+2026-06-20 08:01:36,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Payment authorized for order 50100
+2026-06-20 08:02:24,000 INFO  [scheduler-1] c.e.web.OrderController - Cache hit for product catalog page=16
+2026-06-20 08:03:15,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Cache hit for product catalog page=27
+2026-06-20 08:04:06,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Payment authorized for order 50103
+2026-06-20 08:04:27,000 ERROR [http-nio-8080-exec-9] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:05:38,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Cache hit for product catalog page=1
+2026-06-20 08:06:14,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Cache hit for product catalog page=15
+2026-06-20 08:07:24,000 WARN  [http-nio-8080-exec-10] c.e.service.PaymentService - Retrying operation attempt=3/3
+2026-06-20 08:07:47,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Order 50106 created successfully amount=16720
+2026-06-20 08:08:58,000 WARN  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Slow query detected took=3094ms threshold=1000ms
+2026-06-20 08:09:18,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Payment authorized for order 50107
+2026-06-20 08:10:03,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=7402
+2026-06-20 08:11:16,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:11:44,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Cache hit for product catalog page=27
+2026-06-20 08:12:57,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:13:54,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Cache hit for product catalog page=25
+2026-06-20 08:14:44,000 INFO  [async-task-3] c.e.service.OrderService - Payment authorized for order 50111
+2026-06-20 08:15:59,000 WARN  [http-nio-8080-exec-8] c.e.service.PaymentService - Retrying operation attempt=2/3
+2026-06-20 08:17:21,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50112
+2026-06-20 08:18:35,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:19:51,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Received request POST /api/orders userId=1957
+2026-06-20 08:20:24,000 WARN  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=16/20
+2026-06-20 08:20:50,000 WARN  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Retrying operation attempt=2/3
+2026-06-20 08:21:44,000 WARN  [http-nio-8080-exec-1] c.e.web.OrderController - Connection pool nearing capacity active=18/20
+2026-06-20 08:22:18,000 WARN  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Retrying operation attempt=3/3
+2026-06-20 08:23:10,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2558
+2026-06-20 08:23:42,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:24:03,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:24:39,000 INFO  [async-task-3] c.e.service.OrderService - Order 50115 created successfully amount=36434
+2026-06-20 08:26:07,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:27:33,000 WARN  [http-nio-8080-exec-10] c.e.service.PaymentService - Connection pool nearing capacity active=16/20
+2026-06-20 08:28:53,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Received request POST /api/orders userId=5044
+2026-06-20 08:30:06,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Order 50117 created successfully amount=44418
+2026-06-20 08:31:12,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Payment authorized for order 50118
+2026-06-20 08:31:50,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Healthcheck OK pool.active=5 pool.idle=8
+2026-06-20 08:32:10,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8472
+2026-06-20 08:33:05,000 INFO  [scheduler-1] c.e.web.OrderController - Order 50121 created successfully amount=8219
+2026-06-20 08:33:40,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Order 50122 created successfully amount=23408
+2026-06-20 08:34:48,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Cache hit for product catalog page=14
+2026-06-20 08:36:06,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50124 created successfully amount=1262
+2026-06-20 08:37:01,000 WARN  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Slow query detected took=3618ms threshold=1000ms
+2026-06-20 08:37:59,000 WARN  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Slow query detected took=3517ms threshold=1000ms
+2026-06-20 08:38:46,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Order 50125 created successfully amount=44878
+2026-06-20 08:39:46,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7298
+2026-06-20 08:40:56,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Payment authorized for order 50127
+2026-06-20 08:41:54,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Cache hit for product catalog page=9
+2026-06-20 08:43:02,000 WARN  [http-nio-8080-exec-1] c.e.service.PaymentService - Slow query detected took=2469ms threshold=1000ms
+2026-06-20 08:43:51,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=12 pool.idle=4
+2026-06-20 08:44:16,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Payment authorized for order 50130
+2026-06-20 08:44:50,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Order 50131 created successfully amount=34592
+2026-06-20 08:45:54,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Cache hit for product catalog page=28
+2026-06-20 08:46:19,000 WARN  [http-nio-8080-exec-4] c.e.service.PaymentService - Slow query detected took=3543ms threshold=1000ms
+2026-06-20 08:47:35,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:48:52,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50133 created successfully amount=11129
+2026-06-20 08:49:29,000 ERROR [http-nio-8080-exec-9] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 08:50:05,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Healthcheck OK pool.active=8 pool.idle=1
+2026-06-20 08:51:30,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Order 50135 created successfully amount=1637
+2026-06-20 08:52:49,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Order 50136 created successfully amount=18981
+2026-06-20 08:53:44,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Order 50137 created successfully amount=44311
+2026-06-20 08:54:11,000 INFO  [scheduler-1] c.e.web.OrderController - Cache hit for product catalog page=13
+2026-06-20 08:54:49,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Healthcheck OK pool.active=3 pool.idle=8
+2026-06-20 08:55:49,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Received request POST /api/orders userId=9593
+2026-06-20 08:56:22,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1712
+2026-06-20 08:57:21,000 WARN  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Slow query detected took=3917ms threshold=1000ms
+2026-06-20 08:58:47,000 INFO  [scheduler-1] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=2
+2026-06-20 08:59:32,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Payment authorized for order 50143
+2026-06-20 09:00:07,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Payment authorized for order 50144
+2026-06-20 09:01:13,000 WARN  [http-nio-8080-exec-10] c.e.web.OrderController - Retrying operation attempt=1/3
+2026-06-20 09:02:42,000 WARN  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=17/20
+2026-06-20 09:04:05,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 09:04:34,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Cache hit for product catalog page=2
+2026-06-20 09:05:35,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Received request POST /api/orders userId=5420
+2026-06-20 09:06:48,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2644
+2026-06-20 09:07:23,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Cache hit for product catalog page=27
+2026-06-20 09:07:48,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Cache hit for product catalog page=19
+2026-06-20 09:08:41,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Order 50150 created successfully amount=5274
+2026-06-20 09:09:18,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 09:10:37,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Payment authorized for order 50151
+2026-06-20 09:12:04,000 WARN  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Slow query detected took=3948ms threshold=1000ms
+2026-06-20 09:12:37,000 WARN  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Retrying operation attempt=2/3
+2026-06-20 09:13:48,000 INFO  [async-task-3] c.e.web.OrderController - Cache hit for product catalog page=22
+2026-06-20 09:15:10,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Healthcheck OK pool.active=11 pool.idle=8
+2026-06-20 09:16:21,000 WARN  [async-task-3] c.e.config.DataSourceHealth - Slow query detected took=2712ms threshold=1000ms
+2026-06-20 09:17:14,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Order 50154 created successfully amount=44898
+2026-06-20 09:18:38,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Order 50155 created successfully amount=26698
+2026-06-20 09:19:35,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Order 50156 created successfully amount=4065
+2026-06-20 09:20:43,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=10 pool.idle=7
+2026-06-20 09:22:13,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Payment authorized for order 50158
+2026-06-20 09:23:24,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 09:24:00,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3784
+2026-06-20 09:24:41,000 WARN  [http-nio-8080-exec-7] c.e.web.OrderController - Retrying operation attempt=1/3
+2026-06-20 09:25:39,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Received request POST /api/orders userId=5707
+2026-06-20 09:26:40,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7254
+2026-06-20 09:28:02,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50162
+2026-06-20 09:28:33,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Received request POST /api/orders userId=8953
+2026-06-20 09:30:01,000 WARN  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Retrying operation attempt=1/3
+2026-06-20 09:31:22,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50164
+2026-06-20 09:31:48,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Received request POST /api/orders userId=1168
+2026-06-20 09:33:08,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=3
+2026-06-20 09:34:26,000 WARN  [http-nio-8080-exec-5] c.e.service.PaymentService - Slow query detected took=2001ms threshold=1000ms
+2026-06-20 09:35:52,000 WARN  [http-nio-8080-exec-6] c.e.service.PaymentService - Slow query detected took=2819ms threshold=1000ms
+2026-06-20 09:36:52,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Payment authorized for order 50167
+2026-06-20 09:38:13,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Healthcheck OK pool.active=10 pool.idle=1
+2026-06-20 09:39:00,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8765
+2026-06-20 09:40:04,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Order 50170 created successfully amount=19358
+2026-06-20 09:40:49,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Cache hit for product catalog page=16
+2026-06-20 09:42:18,000 WARN  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Retrying operation attempt=3/3
+2026-06-20 09:43:30,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Received request POST /api/orders userId=3646
+2026-06-20 09:43:55,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50173 created successfully amount=34595
+2026-06-20 09:45:16,000 INFO  [async-task-3] c.e.service.OrderService - Received request POST /api/orders userId=1978
+2026-06-20 09:46:18,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Payment authorized for order 50175
+2026-06-20 09:47:08,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Order 50176 created successfully amount=26488
+2026-06-20 09:47:38,000 INFO  [scheduler-1] c.e.service.PaymentService - Cache hit for product catalog page=4
+2026-06-20 09:48:12,000 WARN  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=2495ms threshold=1000ms
+2026-06-20 09:49:05,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Healthcheck OK pool.active=3 pool.idle=6
+2026-06-20 09:50:14,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50179
+2026-06-20 09:51:25,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Cache hit for product catalog page=25
+2026-06-20 09:52:30,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50181 created successfully amount=9924
+2026-06-20 09:53:21,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Payment authorized for order 50182
+2026-06-20 09:54:44,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Order 50183 created successfully amount=37295
+2026-06-20 09:56:04,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Cache hit for product catalog page=26
+2026-06-20 09:57:14,000 WARN  [http-nio-8080-exec-6] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 09:57:36,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Received request POST /api/orders userId=2775
+2026-06-20 09:58:14,000 WARN  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Connection pool nearing capacity active=16/20
+2026-06-20 09:59:15,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=11 pool.idle=3
+2026-06-20 09:59:48,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Payment authorized for order 50187
+2026-06-20 10:00:56,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50188
+2026-06-20 10:01:44,000 WARN  [scheduler-1] c.e.repository.OrderRepository - Retrying operation attempt=1/3
+2026-06-20 10:02:08,000 ERROR [http-nio-8080-exec-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:02:30,000 ERROR [async-task-3] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60012
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:02:56,000 INFO  [async-task-3] c.e.service.PaymentService - Received request POST /api/orders userId=5437
+2026-06-20 10:03:02,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60002
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:03:09,000 ERROR [http-nio-8080-exec-4] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60000
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:03:13,000 ERROR [http-nio-8080-exec-3] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60016
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:03:20,000 ERROR [http-nio-8080-exec-3] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60014
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:03:36,000 ERROR [http-nio-8080-exec-1] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60009
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:03:42,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Received request POST /api/orders userId=8745
+2026-06-20 10:03:43,000 ERROR [http-nio-8080-exec-8] c.e.repository.OrderRepository - Connection acquisition failed for read replica
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:213)
+	at c.e.repository.OrderRepository.findById(OrderRepository.java:97)
+Caused by: java.sql.SQLException: ORA-12516: TNS:listener could not find available handler
+2026-06-20 10:03:45,000 ERROR [http-nio-8080-exec-7] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60001
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:04:14,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Received request POST /api/orders userId=7164
+2026-06-20 10:04:24,000 ERROR [http-nio-8080-exec-9] c.e.repository.OrderRepository - Connection acquisition failed for read replica
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:213)
+	at c.e.repository.OrderRepository.findById(OrderRepository.java:97)
+Caused by: java.sql.SQLException: ORA-12516: TNS:listener could not find available handler
+2026-06-20 10:04:34,000 ERROR [http-nio-8080-exec-7] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60019
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:04:50,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60017
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:05:22,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Order 50192 created successfully amount=42737
+2026-06-20 10:05:58,000 ERROR [scheduler-1] c.e.repository.OrderRepository - Connection acquisition failed for read replica
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:213)
+	at c.e.repository.OrderRepository.findById(OrderRepository.java:97)
+Caused by: java.sql.SQLException: ORA-12516: TNS:listener could not find available handler
+2026-06-20 10:06:34,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60007
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:06:35,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60010
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:06:48,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50193
+2026-06-20 10:07:30,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:08:09,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=9042
+2026-06-20 10:08:16,000 ERROR [http-nio-8080-exec-6] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60008
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:08:25,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60011
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:08:28,000 ERROR [http-nio-8080-exec-5] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60004
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:08:29,000 ERROR [http-nio-8080-exec-3] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60020
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:08:49,000 ERROR [http-nio-8080-exec-11] c.e.repository.OrderRepository - Connection acquisition failed for read replica
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:213)
+	at c.e.repository.OrderRepository.findById(OrderRepository.java:97)
+Caused by: java.sql.SQLException: ORA-12516: TNS:listener could not find available handler
+2026-06-20 10:08:54,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Payment authorized for order 50195
+2026-06-20 10:08:59,000 ERROR [http-nio-8080-exec-1] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60013
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:09:07,000 ERROR [http-nio-8080-exec-3] c.e.repository.OrderRepository - Connection acquisition failed for read replica
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30000ms
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:213)
+	at c.e.repository.OrderRepository.findById(OrderRepository.java:97)
+Caused by: java.sql.SQLException: ORA-12516: TNS:listener could not find available handler
+2026-06-20 10:09:18,000 ERROR [scheduler-1] c.e.service.OrderService - Failed to place order, rolling back transaction orderId=60005
+org.springframework.dao.CannotAcquireLockException: could not execute statement [ORA-00060: deadlock detected]
+	at o.h.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at c.e.repository.OrderRepository.save(OrderRepository.java:144)
+	at c.e.service.OrderService.placeOrder(OrderService.java:71)
+Caused by: java.sql.SQLException: ORA-00060: deadlock detected while waiting for resource
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:494)
+2026-06-20 10:09:28,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Healthcheck OK pool.active=11 pool.idle=2
+2026-06-20 10:09:50,000 INFO  [async-task-3] c.e.service.PaymentService - Received request POST /api/orders userId=8420
+2026-06-20 10:11:00,000 INFO  [scheduler-1] c.e.service.OrderService - Payment authorized for order 50198
+2026-06-20 10:11:10,000 WARN  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Connection pool recovering active=14/20
+2026-06-20 10:11:23,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50199
+2026-06-20 10:12:15,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:13:36,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Healthcheck OK pool.active=11 pool.idle=3
+2026-06-20 10:14:37,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50201
+2026-06-20 10:15:38,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Order 50202 created successfully amount=18625
+2026-06-20 10:15:59,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:16:42,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Healthcheck OK pool.active=3 pool.idle=2
+2026-06-20 10:17:39,000 INFO  [scheduler-1] c.e.web.OrderController - Payment authorized for order 50204
+2026-06-20 10:18:46,000 WARN  [http-nio-8080-exec-3] c.e.service.OrderService - Retrying operation attempt=2/3
+2026-06-20 10:20:02,000 WARN  [http-nio-8080-exec-1] c.e.web.OrderController - Slow query detected took=1438ms threshold=1000ms
+2026-06-20 10:20:34,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Received request POST /api/orders userId=7070
+2026-06-20 10:21:51,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Order 50206 created successfully amount=27949
+2026-06-20 10:22:46,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Healthcheck OK pool.active=4 pool.idle=7
+2026-06-20 10:23:17,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Cache hit for product catalog page=14
+2026-06-20 10:24:15,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:25:35,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Cache hit for product catalog page=3
+2026-06-20 10:26:15,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Healthcheck OK pool.active=6 pool.idle=1
+2026-06-20 10:27:16,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50211 created successfully amount=47547
+2026-06-20 10:28:37,000 WARN  [http-nio-8080-exec-11] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 10:29:53,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Payment authorized for order 50212
+2026-06-20 10:30:54,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Received request POST /api/orders userId=7563
+2026-06-20 10:31:24,000 WARN  [http-nio-8080-exec-6] c.e.web.OrderController - Connection pool nearing capacity active=17/20
+2026-06-20 10:32:16,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Payment authorized for order 50214
+2026-06-20 10:33:31,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Healthcheck OK pool.active=2 pool.idle=6
+2026-06-20 10:34:33,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:35:54,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Received request POST /api/orders userId=8159
+2026-06-20 10:36:14,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Order 50217 created successfully amount=6892
+2026-06-20 10:37:15,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Cache hit for product catalog page=29
+2026-06-20 10:37:36,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Healthcheck OK pool.active=10 pool.idle=7
+2026-06-20 10:39:03,000 WARN  [http-nio-8080-exec-10] c.e.service.PaymentService - Retrying operation attempt=1/3
+2026-06-20 10:40:04,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Payment authorized for order 50220
+2026-06-20 10:41:19,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=8831
+2026-06-20 10:41:39,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Received request POST /api/orders userId=6941
+2026-06-20 10:42:17,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:43:28,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Cache hit for product catalog page=11
+2026-06-20 10:44:44,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Payment authorized for order 50224
+2026-06-20 10:45:17,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Order 50225 created successfully amount=23559
+2026-06-20 10:45:40,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6976
+2026-06-20 10:46:58,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3758
+2026-06-20 10:47:42,000 WARN  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Retrying operation attempt=3/3
+2026-06-20 10:48:02,000 WARN  [http-nio-8080-exec-3] c.e.web.OrderController - Retrying operation attempt=1/3
+2026-06-20 10:48:45,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Payment authorized for order 50228
+2026-06-20 10:49:07,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Healthcheck OK pool.active=8 pool.idle=6
+2026-06-20 10:49:33,000 INFO  [scheduler-1] c.e.web.OrderController - Payment authorized for order 50230
+2026-06-20 10:50:25,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Order 50231 created successfully amount=47076
+2026-06-20 10:50:45,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3242
+2026-06-20 10:51:41,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Order 50233 created successfully amount=44293
+2026-06-20 10:52:51,000 WARN  [http-nio-8080-exec-5] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 10:54:10,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 10:55:19,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=4
+2026-06-20 10:56:06,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=5 pool.idle=5
+2026-06-20 10:56:34,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Healthcheck OK pool.active=5 pool.idle=8
+2026-06-20 10:57:26,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=18
+2026-06-20 10:58:05,000 WARN  [async-task-3] c.e.service.PaymentService - Slow query detected took=3915ms threshold=1000ms
+2026-06-20 10:59:09,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Cache hit for product catalog page=12
+2026-06-20 11:00:12,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:01:15,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Cache hit for product catalog page=9
+2026-06-20 11:02:13,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Payment authorized for order 50240
+2026-06-20 11:03:32,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50241
+2026-06-20 11:04:44,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Cache hit for product catalog page=26
+2026-06-20 11:05:50,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Payment authorized for order 50243
+2026-06-20 11:06:19,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Cache hit for product catalog page=14
+2026-06-20 11:07:45,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Cache hit for product catalog page=4
+2026-06-20 11:08:32,000 WARN  [http-nio-8080-exec-6] c.e.web.OrderController - Retrying operation attempt=1/3
+2026-06-20 11:09:51,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Healthcheck OK pool.active=7 pool.idle=5
+2026-06-20 11:10:28,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Healthcheck OK pool.active=5 pool.idle=1
+2026-06-20 11:11:10,000 INFO  [scheduler-1] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1875
+2026-06-20 11:11:38,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:13:07,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Received request POST /api/orders userId=6670
+2026-06-20 11:14:13,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6646
+2026-06-20 11:15:28,000 WARN  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Connection pool nearing capacity active=16/20
+2026-06-20 11:15:57,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Payment authorized for order 50251
+2026-06-20 11:17:24,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Order 50252 created successfully amount=7888
+2026-06-20 11:18:46,000 WARN  [scheduler-1] c.e.web.OrderController - Connection pool nearing capacity active=16/20
+2026-06-20 11:19:09,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Payment authorized for order 50253
+2026-06-20 11:19:29,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=2114
+2026-06-20 11:20:47,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=4177
+2026-06-20 11:22:02,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Payment authorized for order 50256
+2026-06-20 11:23:02,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Cache hit for product catalog page=12
+2026-06-20 11:24:06,000 WARN  [http-nio-8080-exec-9] c.e.service.OrderService - Connection pool nearing capacity active=16/20
+2026-06-20 11:25:20,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Cache hit for product catalog page=9
+2026-06-20 11:25:50,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Payment authorized for order 50259
+2026-06-20 11:26:41,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Cache hit for product catalog page=13
+2026-06-20 11:27:41,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Order 50261 created successfully amount=14494
+2026-06-20 11:28:20,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:29:06,000 WARN  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Slow query detected took=1269ms threshold=1000ms
+2026-06-20 11:29:41,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6725
+2026-06-20 11:30:15,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Payment authorized for order 50263
+2026-06-20 11:30:52,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=8 pool.idle=7
+2026-06-20 11:32:19,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Cache hit for product catalog page=22
+2026-06-20 11:32:47,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:33:34,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Order 50266 created successfully amount=2868
+2026-06-20 11:33:54,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Received request POST /api/orders userId=5661
+2026-06-20 11:35:05,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Received request POST /api/orders userId=5390
+2026-06-20 11:36:18,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:36:48,000 WARN  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Connection pool nearing capacity active=15/20
+2026-06-20 11:37:37,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=5
+2026-06-20 11:38:42,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Received request POST /api/orders userId=7631
+2026-06-20 11:39:32,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Healthcheck OK pool.active=10 pool.idle=3
+2026-06-20 11:39:54,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Received request POST /api/orders userId=9758
+2026-06-20 11:40:57,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50273
+2026-06-20 11:42:18,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Received request POST /api/orders userId=9133
+2026-06-20 11:43:13,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=8 pool.idle=5
+2026-06-20 11:44:28,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=9419
+2026-06-20 11:45:05,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=16
+2026-06-20 11:46:22,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=23
+2026-06-20 11:46:50,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Payment authorized for order 50279
+2026-06-20 11:48:07,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Cache hit for product catalog page=14
+2026-06-20 11:49:09,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Received request POST /api/orders userId=3223
+2026-06-20 11:50:11,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 11:51:00,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Healthcheck OK pool.active=4 pool.idle=1
+2026-06-20 11:51:30,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Order 50283 created successfully amount=25809
+2026-06-20 11:52:33,000 INFO  [async-task-3] c.e.service.OrderService - Cache hit for product catalog page=16
+2026-06-20 11:53:38,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Healthcheck OK pool.active=3 pool.idle=7
+2026-06-20 11:54:09,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Cache hit for product catalog page=23
+2026-06-20 11:55:19,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Order 50287 created successfully amount=43166
+2026-06-20 11:55:50,000 WARN  [http-nio-8080-exec-5] c.e.service.PaymentService - Retrying operation attempt=1/3
+2026-06-20 11:56:24,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Received request POST /api/orders userId=8922
+2026-06-20 11:57:18,000 INFO  [scheduler-1] c.e.service.PaymentService - Order 50289 created successfully amount=28905
+2026-06-20 11:58:16,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Cache hit for product catalog page=17
+2026-06-20 11:59:41,000 WARN  [http-nio-8080-exec-1] c.e.service.OrderService - Connection pool nearing capacity active=19/20
+2026-06-20 12:00:34,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Received request POST /api/orders userId=2068
+2026-06-20 12:01:18,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Healthcheck OK pool.active=9 pool.idle=8
+2026-06-20 12:01:39,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Healthcheck OK pool.active=6 pool.idle=8
+2026-06-20 12:03:02,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Healthcheck OK pool.active=4 pool.idle=3
+2026-06-20 12:03:34,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=8 pool.idle=8
+2026-06-20 12:04:48,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=3
+2026-06-20 12:06:14,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=3
+2026-06-20 12:07:35,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Order 50298 created successfully amount=48594
+2026-06-20 12:08:26,000 WARN  [http-nio-8080-exec-12] c.e.web.OrderController - Connection pool nearing capacity active=19/20
+2026-06-20 12:09:30,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Cache hit for product catalog page=3
+2026-06-20 12:10:33,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=1
+2026-06-20 12:11:46,000 ERROR [http-nio-8080-exec-2] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:12:09,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Order 50301 created successfully amount=43556
+2026-06-20 12:13:34,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Cache hit for product catalog page=5
+2026-06-20 12:13:55,000 WARN  [http-nio-8080-exec-3] c.e.web.OrderController - Connection pool nearing capacity active=17/20
+2026-06-20 12:15:03,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:16:22,000 WARN  [async-task-3] c.e.service.PaymentService - Slow query detected took=3149ms threshold=1000ms
+2026-06-20 12:17:44,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:18:05,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Payment authorized for order 50303
+2026-06-20 12:18:34,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Healthcheck OK pool.active=8 pool.idle=6
+2026-06-20 12:19:36,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Payment authorized for order 50305
+2026-06-20 12:20:15,000 WARN  [http-nio-8080-exec-7] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 12:20:59,000 WARN  [async-task-3] c.e.config.DataSourceHealth - Retrying operation attempt=1/3
+2026-06-20 12:22:27,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:22:53,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Received request POST /api/orders userId=1388
+2026-06-20 12:24:14,000 WARN  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Slow query detected took=1870ms threshold=1000ms
+2026-06-20 12:24:57,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Order 50307 created successfully amount=18803
+2026-06-20 12:25:58,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Cache hit for product catalog page=5
+2026-06-20 12:26:31,000 WARN  [http-nio-8080-exec-12] c.e.web.OrderController - Connection pool nearing capacity active=15/20
+2026-06-20 12:27:41,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8853
+2026-06-20 12:28:57,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:29:35,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Order 50310 created successfully amount=19180
+2026-06-20 12:30:46,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Cache hit for product catalog page=18
+2026-06-20 12:31:50,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Order 50312 created successfully amount=21222
+2026-06-20 12:32:52,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50313
+2026-06-20 12:33:32,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=4317
+2026-06-20 12:34:23,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:34:47,000 INFO  [async-task-3] c.e.service.PaymentService - Payment authorized for order 50315
+2026-06-20 12:36:10,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:36:38,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:37:03,000 WARN  [http-nio-8080-exec-5] c.e.web.OrderController - Slow query detected took=2041ms threshold=1000ms
+2026-06-20 12:37:30,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7151
+2026-06-20 12:38:14,000 ERROR [http-nio-8080-exec-6] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:39:28,000 INFO  [async-task-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=6
+2026-06-20 12:40:25,000 INFO  [scheduler-1] c.e.service.OrderService - Healthcheck OK pool.active=12 pool.idle=1
+2026-06-20 12:41:14,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Payment authorized for order 50319
+2026-06-20 12:42:30,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Payment authorized for order 50320
+2026-06-20 12:43:38,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Healthcheck OK pool.active=9 pool.idle=2
+2026-06-20 12:45:05,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Payment authorized for order 50322
+2026-06-20 12:45:58,000 WARN  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Slow query detected took=3034ms threshold=1000ms
+2026-06-20 12:46:55,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=15
+2026-06-20 12:47:37,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Payment authorized for order 50324
+2026-06-20 12:49:03,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 12:50:21,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Payment authorized for order 50325
+2026-06-20 12:51:16,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Received request POST /api/orders userId=4888
+2026-06-20 12:51:43,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Payment authorized for order 50327
+2026-06-20 12:52:54,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Payment authorized for order 50328
+2026-06-20 12:53:28,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=5598
+2026-06-20 12:54:15,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=5 pool.idle=6
+2026-06-20 12:55:07,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Payment authorized for order 50331
+2026-06-20 12:55:44,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Received request POST /api/orders userId=4252
+2026-06-20 12:56:32,000 WARN  [http-nio-8080-exec-7] c.e.service.OrderService - Slow query detected took=2009ms threshold=1000ms
+2026-06-20 12:57:51,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=9997
+2026-06-20 12:58:21,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Cache hit for product catalog page=7
+2026-06-20 12:59:28,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Healthcheck OK pool.active=2 pool.idle=8
+2026-06-20 13:00:25,000 WARN  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Slow query detected took=1260ms threshold=1000ms
+2026-06-20 13:00:46,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Received request POST /api/orders userId=3096
+2026-06-20 13:01:39,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Payment authorized for order 50337
+2026-06-20 13:02:41,000 WARN  [scheduler-1] c.e.service.PaymentService - Slow query detected took=1411ms threshold=1000ms
+2026-06-20 13:03:49,000 INFO  [http-nio-8080-exec-6] c.e.service.OrderService - Order 50338 created successfully amount=47511
+2026-06-20 13:05:02,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Cache hit for product catalog page=29
+2026-06-20 13:06:16,000 WARN  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Connection pool nearing capacity active=19/20
+2026-06-20 13:07:29,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Received request POST /api/orders userId=6725
+2026-06-20 13:08:36,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Order 50341 created successfully amount=10041
+2026-06-20 13:10:06,000 WARN  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=3336ms threshold=1000ms
+2026-06-20 13:11:10,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Cache hit for product catalog page=15
+2026-06-20 13:12:35,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50343
+2026-06-20 13:13:52,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=8635
+2026-06-20 13:14:33,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Received request POST /api/orders userId=9063
+2026-06-20 13:15:29,000 WARN  [http-nio-8080-exec-9] c.e.service.OrderService - Connection pool nearing capacity active=15/20
+2026-06-20 13:16:58,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Healthcheck OK pool.active=11 pool.idle=8
+2026-06-20 13:18:20,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50347
+2026-06-20 13:19:34,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Payment authorized for order 50348
+2026-06-20 13:20:16,000 INFO  [scheduler-1] c.e.service.PaymentService - Payment authorized for order 50349
+2026-06-20 13:21:25,000 WARN  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Retrying operation attempt=3/3
+2026-06-20 13:22:51,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Healthcheck OK pool.active=9 pool.idle=8
+2026-06-20 13:24:10,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Payment authorized for order 50351
+2026-06-20 13:25:12,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Received request POST /api/orders userId=6489
+2026-06-20 13:26:19,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Healthcheck OK pool.active=10 pool.idle=8
+2026-06-20 13:26:48,000 WARN  [http-nio-8080-exec-1] c.e.web.OrderController - Slow query detected took=3953ms threshold=1000ms
+2026-06-20 13:27:26,000 WARN  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Slow query detected took=2233ms threshold=1000ms
+2026-06-20 13:28:52,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Healthcheck OK pool.active=11 pool.idle=4
+2026-06-20 13:29:56,000 WARN  [http-nio-8080-exec-7] c.e.service.PaymentService - Slow query detected took=2562ms threshold=1000ms
+2026-06-20 13:31:05,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Order 50355 created successfully amount=6640
+2026-06-20 13:31:44,000 INFO  [async-task-3] c.e.web.OrderController - Received request POST /api/orders userId=4514
+2026-06-20 13:32:25,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Payment authorized for order 50357
+2026-06-20 13:33:12,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=5043
+2026-06-20 13:33:45,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 13:34:57,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Payment authorized for order 50359
+2026-06-20 13:36:13,000 WARN  [http-nio-8080-exec-12] c.e.service.PaymentService - Slow query detected took=1228ms threshold=1000ms
+2026-06-20 13:37:24,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 13:38:22,000 WARN  [http-nio-8080-exec-7] c.e.service.PaymentService - Slow query detected took=3033ms threshold=1000ms
+2026-06-20 13:39:39,000 WARN  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Retrying operation attempt=2/3
+2026-06-20 13:40:04,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=4421
+2026-06-20 13:40:44,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Cache hit for product catalog page=13
+2026-06-20 13:41:52,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Cache hit for product catalog page=29
+2026-06-20 13:43:20,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50363
+2026-06-20 13:44:39,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 13:45:53,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Cache hit for product catalog page=2
+2026-06-20 13:46:31,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Healthcheck OK pool.active=6 pool.idle=8
+2026-06-20 13:47:11,000 WARN  [http-nio-8080-exec-9] c.e.service.PaymentService - Connection pool nearing capacity active=17/20
+2026-06-20 13:48:05,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50366
+2026-06-20 13:48:58,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Payment authorized for order 50367
+2026-06-20 13:49:56,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Healthcheck OK pool.active=6 pool.idle=3
+2026-06-20 13:51:02,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Cache hit for product catalog page=9
+2026-06-20 13:51:29,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50370
+2026-06-20 13:52:50,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Cache hit for product catalog page=30
+2026-06-20 13:53:30,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Received request POST /api/orders userId=3555
+2026-06-20 13:54:40,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Order 50373 created successfully amount=16241
+2026-06-20 13:55:24,000 WARN  [http-nio-8080-exec-2] c.e.service.PaymentService - Connection pool nearing capacity active=15/20
+2026-06-20 13:56:48,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Payment authorized for order 50374
+2026-06-20 13:58:13,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Payment authorized for order 50375
+2026-06-20 13:58:33,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Received request POST /api/orders userId=8219
+2026-06-20 13:59:43,000 WARN  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Connection pool nearing capacity active=17/20
+2026-06-20 14:01:04,000 WARN  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Slow query detected took=3726ms threshold=1000ms
+2026-06-20 14:01:59,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=8
+2026-06-20 14:02:53,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Healthcheck OK pool.active=12 pool.idle=3
+2026-06-20 14:04:02,000 WARN  [async-task-3] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 14:04:59,000 INFO  [scheduler-1] c.e.web.OrderController - Order 50379 created successfully amount=47091
+2026-06-20 14:06:16,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Order 50380 created successfully amount=49393
+2026-06-20 14:07:21,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Cache hit for product catalog page=10
+2026-06-20 14:08:42,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Cache hit for product catalog page=10
+2026-06-20 14:09:36,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50383 created successfully amount=37832
+2026-06-20 14:10:36,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3692
+2026-06-20 14:12:02,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50385 created successfully amount=40424
+2026-06-20 14:13:08,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Healthcheck OK pool.active=4 pool.idle=2
+2026-06-20 14:13:28,000 WARN  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=3390ms threshold=1000ms
+2026-06-20 14:14:55,000 INFO  [async-task-3] c.e.repository.OrderRepository - Payment authorized for order 50387
+2026-06-20 14:15:51,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Order 50388 created successfully amount=48064
+2026-06-20 14:17:12,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Order 50389 created successfully amount=16382
+2026-06-20 14:18:33,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Received request POST /api/orders userId=1811
+2026-06-20 14:19:07,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Payment authorized for order 50391
+2026-06-20 14:20:37,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:21:29,000 WARN  [scheduler-1] c.e.service.OrderService - Slow query detected took=3394ms threshold=1000ms
+2026-06-20 14:22:27,000 WARN  [http-nio-8080-exec-8] c.e.service.PaymentService - Slow query detected took=3095ms threshold=1000ms
+2026-06-20 14:23:44,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Healthcheck OK pool.active=8 pool.idle=2
+2026-06-20 14:24:45,000 ERROR [http-nio-8080-exec-6] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:25:06,000 INFO  [async-task-3] c.e.service.PaymentService - Healthcheck OK pool.active=9 pool.idle=6
+2026-06-20 14:26:02,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=1
+2026-06-20 14:27:11,000 INFO  [http-nio-8080-exec-1] c.e.service.OrderService - Received request POST /api/orders userId=3573
+2026-06-20 14:28:25,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:29:54,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Cache hit for product catalog page=20
+2026-06-20 14:30:24,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Cache hit for product catalog page=28
+2026-06-20 14:31:21,000 WARN  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=3598ms threshold=1000ms
+2026-06-20 14:31:55,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Healthcheck OK pool.active=11 pool.idle=7
+2026-06-20 14:32:38,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:33:51,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Cache hit for product catalog page=2
+2026-06-20 14:35:00,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Order 50400 created successfully amount=36618
+2026-06-20 14:36:03,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Healthcheck OK pool.active=7 pool.idle=4
+2026-06-20 14:37:08,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Healthcheck OK pool.active=2 pool.idle=8
+2026-06-20 14:38:32,000 INFO  [scheduler-1] c.e.service.PaymentService - Received request POST /api/orders userId=3638
+2026-06-20 14:39:10,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Payment authorized for order 50404
+2026-06-20 14:40:02,000 INFO  [async-task-3] c.e.repository.OrderRepository - Order 50405 created successfully amount=31462
+2026-06-20 14:41:21,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Healthcheck OK pool.active=8 pool.idle=8
+2026-06-20 14:42:29,000 WARN  [http-nio-8080-exec-1] c.e.web.OrderController - Slow query detected took=3256ms threshold=1000ms
+2026-06-20 14:43:33,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:44:38,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=5
+2026-06-20 14:45:28,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:46:36,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Payment authorized for order 50408
+2026-06-20 14:47:07,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Healthcheck OK pool.active=4 pool.idle=5
+2026-06-20 14:48:13,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:48:47,000 WARN  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Connection pool nearing capacity active=15/20
+2026-06-20 14:49:07,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 14:49:29,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Order 50410 created successfully amount=30797
+2026-06-20 14:50:40,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=5 pool.idle=2
+2026-06-20 14:51:00,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Cache hit for product catalog page=24
+2026-06-20 14:52:06,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Payment authorized for order 50413
+2026-06-20 14:53:04,000 WARN  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Slow query detected took=1804ms threshold=1000ms
+2026-06-20 14:54:18,000 WARN  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Connection pool nearing capacity active=18/20
+2026-06-20 14:55:37,000 WARN  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=3900ms threshold=1000ms
+2026-06-20 14:56:46,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Healthcheck OK pool.active=7 pool.idle=2
+2026-06-20 14:57:37,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=11 pool.idle=3
+2026-06-20 14:58:48,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Payment authorized for order 50416
+2026-06-20 15:00:00,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Cache hit for product catalog page=13
+2026-06-20 15:00:56,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3532
+2026-06-20 15:02:18,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:03:24,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Cache hit for product catalog page=29
+2026-06-20 15:04:34,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Order 50420 created successfully amount=19098
+2026-06-20 15:05:06,000 WARN  [async-task-3] c.e.service.OrderService - Connection pool nearing capacity active=18/20
+2026-06-20 15:05:52,000 ERROR [http-nio-8080-exec-6] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:06:24,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:07:46,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50421
+2026-06-20 15:08:17,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=6
+2026-06-20 15:09:40,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=5832
+2026-06-20 15:10:22,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Order 50424 created successfully amount=22714
+2026-06-20 15:11:05,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:11:47,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Healthcheck OK pool.active=7 pool.idle=1
+2026-06-20 15:12:36,000 WARN  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Slow query detected took=2574ms threshold=1000ms
+2026-06-20 15:13:55,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2898
+2026-06-20 15:14:49,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Order 50427 created successfully amount=21414
+2026-06-20 15:16:03,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Cache hit for product catalog page=24
+2026-06-20 15:17:00,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50429 created successfully amount=48982
+2026-06-20 15:17:56,000 INFO  [http-nio-8080-exec-3] c.e.service.OrderService - Payment authorized for order 50430
+2026-06-20 15:19:26,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50431
+2026-06-20 15:20:13,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=3 pool.idle=3
+2026-06-20 15:21:31,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:22:33,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=7
+2026-06-20 15:23:02,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Received request POST /api/orders userId=6865
+2026-06-20 15:23:57,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Cache hit for product catalog page=28
+2026-06-20 15:24:34,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Payment authorized for order 50436
+2026-06-20 15:25:01,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Received request POST /api/orders userId=4562
+2026-06-20 15:25:44,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Cache hit for product catalog page=6
+2026-06-20 15:27:03,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Order 50439 created successfully amount=41279
+2026-06-20 15:28:26,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Received request POST /api/orders userId=4401
+2026-06-20 15:29:06,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=11 pool.idle=5
+2026-06-20 15:30:29,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Cache hit for product catalog page=26
+2026-06-20 15:31:12,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Received request POST /api/orders userId=6373
+2026-06-20 15:32:18,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50444 created successfully amount=18376
+2026-06-20 15:33:01,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50445
+2026-06-20 15:34:17,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50446
+2026-06-20 15:34:39,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:35:44,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Order 50447 created successfully amount=44907
+2026-06-20 15:36:22,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Cache hit for product catalog page=3
+2026-06-20 15:37:25,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Healthcheck OK pool.active=12 pool.idle=1
+2026-06-20 15:38:25,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Healthcheck OK pool.active=4 pool.idle=2
+2026-06-20 15:38:55,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Order 50451 created successfully amount=15592
+2026-06-20 15:40:24,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1325
+2026-06-20 15:41:25,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:42:52,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Received request POST /api/orders userId=3243
+2026-06-20 15:44:08,000 WARN  [http-nio-8080-exec-5] c.e.web.OrderController - Connection pool nearing capacity active=16/20
+2026-06-20 15:45:20,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:46:44,000 INFO  [http-nio-8080-exec-6] c.e.service.OrderService - Cache hit for product catalog page=1
+2026-06-20 15:47:40,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=3
+2026-06-20 15:48:49,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Order 50456 created successfully amount=21500
+2026-06-20 15:49:24,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Cache hit for product catalog page=26
+2026-06-20 15:50:36,000 WARN  [http-nio-8080-exec-2] c.e.service.OrderService - Retrying operation attempt=1/3
+2026-06-20 15:51:07,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Payment authorized for order 50458
+2026-06-20 15:51:46,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=9861
+2026-06-20 15:52:36,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Order 50460 created successfully amount=38784
+2026-06-20 15:53:33,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Healthcheck OK pool.active=12 pool.idle=4
+2026-06-20 15:54:09,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 15:55:31,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Order 50462 created successfully amount=6315
+2026-06-20 15:56:03,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=4992
+2026-06-20 15:57:21,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Healthcheck OK pool.active=8 pool.idle=6
+2026-06-20 15:57:50,000 WARN  [http-nio-8080-exec-12] c.e.web.OrderController - Slow query detected took=1901ms threshold=1000ms
+2026-06-20 15:58:11,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50465
+2026-06-20 15:58:48,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Healthcheck OK pool.active=10 pool.idle=5
+2026-06-20 15:59:35,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Cache hit for product catalog page=27
+2026-06-20 16:00:09,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8374
+2026-06-20 16:00:54,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Cache hit for product catalog page=21
+2026-06-20 16:01:37,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Order 50470 created successfully amount=27929
+2026-06-20 16:02:23,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Cache hit for product catalog page=11
+2026-06-20 16:03:01,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Cache hit for product catalog page=25
+2026-06-20 16:04:28,000 INFO  [scheduler-1] c.e.web.OrderController - Healthcheck OK pool.active=3 pool.idle=7
+2026-06-20 16:05:17,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=11 pool.idle=5
+2026-06-20 16:06:08,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Cache hit for product catalog page=18
+2026-06-20 16:07:19,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Payment authorized for order 50476
+2026-06-20 16:07:53,000 WARN  [http-nio-8080-exec-7] c.e.web.OrderController - Connection pool nearing capacity active=16/20
+2026-06-20 16:08:13,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Cache hit for product catalog page=2
+2026-06-20 16:09:25,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Received request POST /api/orders userId=4679
+2026-06-20 16:10:11,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50479 created successfully amount=9642
+2026-06-20 16:11:04,000 INFO  [async-task-3] c.e.repository.OrderRepository - Received request POST /api/orders userId=3999
+2026-06-20 16:12:01,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Healthcheck OK pool.active=6 pool.idle=1
+2026-06-20 16:13:26,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Order 50482 created successfully amount=39461
+2026-06-20 16:14:24,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Payment authorized for order 50483
+2026-06-20 16:15:52,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:16:27,000 INFO  [scheduler-1] c.e.config.DataSourceHealth - Order 50484 created successfully amount=30087
+2026-06-20 16:17:41,000 WARN  [http-nio-8080-exec-9] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 16:19:07,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Order 50485 created successfully amount=36934
+2026-06-20 16:19:50,000 WARN  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Retrying operation attempt=1/3
+2026-06-20 16:20:18,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Healthcheck OK pool.active=5 pool.idle=8
+2026-06-20 16:21:00,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Cache hit for product catalog page=12
+2026-06-20 16:21:44,000 INFO  [http-nio-8080-exec-7] c.e.service.OrderService - Healthcheck OK pool.active=6 pool.idle=2
+2026-06-20 16:22:42,000 INFO  [async-task-3] c.e.repository.OrderRepository - Payment authorized for order 50489
+2026-06-20 16:23:20,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Order 50490 created successfully amount=20651
+2026-06-20 16:23:54,000 WARN  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Slow query detected took=3325ms threshold=1000ms
+2026-06-20 16:24:50,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=4 pool.idle=4
+2026-06-20 16:25:25,000 INFO  [async-task-3] c.e.service.PaymentService - Cache hit for product catalog page=1
+2026-06-20 16:26:29,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Order 50493 created successfully amount=19096
+2026-06-20 16:27:31,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Order 50494 created successfully amount=1223
+2026-06-20 16:28:18,000 INFO  [scheduler-1] c.e.service.PaymentService - Order 50495 created successfully amount=41952
+2026-06-20 16:28:47,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50496 created successfully amount=32302
+2026-06-20 16:29:13,000 WARN  [http-nio-8080-exec-4] c.e.service.OrderService - Slow query detected took=1817ms threshold=1000ms
+2026-06-20 16:30:42,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=8 pool.idle=1
+2026-06-20 16:32:04,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:33:34,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=3 pool.idle=3
+2026-06-20 16:34:18,000 INFO  [scheduler-1] c.e.config.DataSourceHealth - Order 50499 created successfully amount=45556
+2026-06-20 16:34:51,000 ERROR [http-nio-8080-exec-9] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:35:50,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Healthcheck OK pool.active=4 pool.idle=6
+2026-06-20 16:36:58,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Payment authorized for order 50501
+2026-06-20 16:38:17,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:39:31,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2882
+2026-06-20 16:41:00,000 INFO  [async-task-3] c.e.service.OrderService - Order 50503 created successfully amount=28356
+2026-06-20 16:41:25,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Order 50504 created successfully amount=22845
+2026-06-20 16:42:43,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Cache hit for product catalog page=6
+2026-06-20 16:43:21,000 ERROR [http-nio-8080-exec-9] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:44:22,000 INFO  [http-nio-8080-exec-9] c.e.service.PaymentService - Payment authorized for order 50506
+2026-06-20 16:44:50,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 16:45:17,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50507
+2026-06-20 16:45:47,000 WARN  [http-nio-8080-exec-7] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 16:46:23,000 INFO  [scheduler-1] c.e.service.PaymentService - Healthcheck OK pool.active=6 pool.idle=8
+2026-06-20 16:47:19,000 WARN  [http-nio-8080-exec-9] c.e.web.OrderController - Slow query detected took=3840ms threshold=1000ms
+2026-06-20 16:48:45,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=3353
+2026-06-20 16:50:12,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=3214
+2026-06-20 16:50:55,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=2317
+2026-06-20 16:51:37,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=11
+2026-06-20 16:52:49,000 WARN  [http-nio-8080-exec-8] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 16:54:14,000 WARN  [http-nio-8080-exec-9] c.e.service.PaymentService - Retrying operation attempt=3/3
+2026-06-20 16:55:40,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Healthcheck OK pool.active=3 pool.idle=1
+2026-06-20 16:56:41,000 WARN  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Slow query detected took=1863ms threshold=1000ms
+2026-06-20 16:57:43,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=8
+2026-06-20 16:59:02,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Received request POST /api/orders userId=5764
+2026-06-20 16:59:26,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2068
+2026-06-20 17:00:24,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Payment authorized for order 50517
+2026-06-20 17:00:58,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50518 created successfully amount=49902
+2026-06-20 17:02:23,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50519 created successfully amount=42785
+2026-06-20 17:03:36,000 INFO  [scheduler-1] c.e.service.OrderService - Order 50520 created successfully amount=27286
+2026-06-20 17:03:58,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Cache hit for product catalog page=29
+2026-06-20 17:04:52,000 INFO  [http-nio-8080-exec-6] c.e.service.OrderService - Payment authorized for order 50522
+2026-06-20 17:05:23,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50523 created successfully amount=23003
+2026-06-20 17:06:53,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Order 50524 created successfully amount=18280
+2026-06-20 17:07:38,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=8
+2026-06-20 17:08:17,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Received request POST /api/orders userId=1257
+2026-06-20 17:08:54,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Healthcheck OK pool.active=6 pool.idle=2
+2026-06-20 17:09:40,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Payment authorized for order 50528
+2026-06-20 17:11:06,000 WARN  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Connection pool nearing capacity active=17/20
+2026-06-20 17:12:35,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50529 created successfully amount=41179
+2026-06-20 17:13:45,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=3 pool.idle=1
+2026-06-20 17:14:58,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Payment authorized for order 50531
+2026-06-20 17:16:06,000 WARN  [async-task-3] c.e.config.DataSourceHealth - Connection pool nearing capacity active=15/20
+2026-06-20 17:17:10,000 WARN  [http-nio-8080-exec-2] c.e.service.OrderService - Slow query detected took=3689ms threshold=1000ms
+2026-06-20 17:18:33,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 17:19:49,000 WARN  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Retrying operation attempt=2/3
+2026-06-20 17:21:06,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Received request POST /api/orders userId=8446
+2026-06-20 17:21:39,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Payment authorized for order 50533
+2026-06-20 17:22:36,000 WARN  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Retrying operation attempt=2/3
+2026-06-20 17:23:18,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Order 50534 created successfully amount=45052
+2026-06-20 17:24:17,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Order 50535 created successfully amount=19915
+2026-06-20 17:25:42,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Order 50536 created successfully amount=29064
+2026-06-20 17:26:52,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50537
+2026-06-20 17:27:18,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Healthcheck OK pool.active=2 pool.idle=4
+2026-06-20 17:28:18,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Cache hit for product catalog page=20
+2026-06-20 17:29:08,000 WARN  [http-nio-8080-exec-5] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 17:30:01,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Cache hit for product catalog page=4
+2026-06-20 17:30:31,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Order 50541 created successfully amount=15420
+2026-06-20 17:32:00,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Cache hit for product catalog page=10
+2026-06-20 17:32:27,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Cache hit for product catalog page=12
+2026-06-20 17:33:14,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Cache hit for product catalog page=8
+2026-06-20 17:34:43,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Payment authorized for order 50545
+2026-06-20 17:35:08,000 INFO  [scheduler-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=4 pool.idle=6
+2026-06-20 17:35:39,000 INFO  [http-nio-8080-exec-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=4
+2026-06-20 17:36:53,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Payment authorized for order 50548
+2026-06-20 17:37:44,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Received request POST /api/orders userId=9507
+2026-06-20 17:38:37,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Cache hit for product catalog page=15
+2026-06-20 17:39:25,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=8702
+2026-06-20 17:40:43,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Order 50552 created successfully amount=26109
+2026-06-20 17:41:25,000 WARN  [http-nio-8080-exec-8] c.e.service.PaymentService - Connection pool nearing capacity active=19/20
+2026-06-20 17:41:55,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Healthcheck OK pool.active=4 pool.idle=6
+2026-06-20 17:42:25,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50554 created successfully amount=33003
+2026-06-20 17:43:49,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Received request POST /api/orders userId=4540
+2026-06-20 17:44:55,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1996
+2026-06-20 17:46:14,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=5426
+2026-06-20 17:46:34,000 WARN  [async-task-3] c.e.service.OrderService - Slow query detected took=2255ms threshold=1000ms
+2026-06-20 17:47:45,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Order 50558 created successfully amount=7051
+2026-06-20 17:49:05,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=30
+2026-06-20 17:50:25,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Order 50560 created successfully amount=43044
+2026-06-20 17:50:45,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Cache hit for product catalog page=22
+2026-06-20 17:51:11,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Healthcheck OK pool.active=3 pool.idle=2
+2026-06-20 17:51:56,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Order 50563 created successfully amount=40136
+2026-06-20 17:52:23,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Cache hit for product catalog page=8
+2026-06-20 17:53:35,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=29
+2026-06-20 17:54:12,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Payment authorized for order 50566
+2026-06-20 17:54:44,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=2 pool.idle=4
+2026-06-20 17:55:54,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=5 pool.idle=6
+2026-06-20 17:56:23,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Order 50569 created successfully amount=25727
+2026-06-20 17:57:31,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 17:58:35,000 WARN  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=16/20
+2026-06-20 17:59:55,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Cache hit for product catalog page=11
+2026-06-20 18:01:16,000 INFO  [async-task-3] c.e.service.OrderService - Cache hit for product catalog page=27
+2026-06-20 18:02:00,000 INFO  [async-task-3] c.e.repository.OrderRepository - Cache hit for product catalog page=12
+2026-06-20 18:02:52,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Payment authorized for order 50573
+2026-06-20 18:04:21,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Cache hit for product catalog page=17
+2026-06-20 18:04:48,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Received request POST /api/orders userId=1114
+2026-06-20 18:05:09,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Order 50576 created successfully amount=3314
+2026-06-20 18:05:39,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:06:42,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Cache hit for product catalog page=19
+2026-06-20 18:08:11,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:08:42,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Healthcheck OK pool.active=3 pool.idle=4
+2026-06-20 18:09:54,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Received request POST /api/orders userId=9822
+2026-06-20 18:10:21,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50580 created successfully amount=28537
+2026-06-20 18:10:43,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:11:45,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Received request POST /api/orders userId=4320
+2026-06-20 18:13:12,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:13:37,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6072
+2026-06-20 18:15:02,000 WARN  [http-nio-8080-exec-11] c.e.service.OrderService - Retrying operation attempt=1/3
+2026-06-20 18:16:20,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=2487
+2026-06-20 18:17:30,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Cache hit for product catalog page=19
+2026-06-20 18:18:53,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6653
+2026-06-20 18:20:03,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=8
+2026-06-20 18:20:35,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50587 created successfully amount=20120
+2026-06-20 18:21:34,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Healthcheck OK pool.active=8 pool.idle=7
+2026-06-20 18:22:20,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1657
+2026-06-20 18:22:44,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=8684
+2026-06-20 18:24:14,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Payment authorized for order 50591
+2026-06-20 18:25:29,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:26:53,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50592
+2026-06-20 18:27:27,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Order 50593 created successfully amount=25189
+2026-06-20 18:28:10,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Cache hit for product catalog page=6
+2026-06-20 18:29:23,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:30:42,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Order 50595 created successfully amount=40094
+2026-06-20 18:31:59,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:32:21,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=10 pool.idle=2
+2026-06-20 18:33:12,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Cache hit for product catalog page=20
+2026-06-20 18:34:24,000 INFO  [async-task-3] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=5
+2026-06-20 18:35:22,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Healthcheck OK pool.active=8 pool.idle=1
+2026-06-20 18:36:24,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Cache hit for product catalog page=2
+2026-06-20 18:37:22,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Healthcheck OK pool.active=3 pool.idle=7
+2026-06-20 18:38:09,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Healthcheck OK pool.active=2 pool.idle=2
+2026-06-20 18:39:17,000 WARN  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=16/20
+2026-06-20 18:40:41,000 WARN  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Connection pool nearing capacity active=15/20
+2026-06-20 18:41:15,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Cache hit for product catalog page=21
+2026-06-20 18:41:43,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Received request POST /api/orders userId=3550
+2026-06-20 18:43:08,000 INFO  [async-task-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=9 pool.idle=1
+2026-06-20 18:43:55,000 INFO  [async-task-3] c.e.service.OrderService - Order 50606 created successfully amount=38249
+2026-06-20 18:44:33,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Order 50607 created successfully amount=33767
+2026-06-20 18:45:22,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Healthcheck OK pool.active=9 pool.idle=1
+2026-06-20 18:46:50,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Received request POST /api/orders userId=1715
+2026-06-20 18:48:15,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Payment authorized for order 50610
+2026-06-20 18:48:47,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 18:50:08,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50611
+2026-06-20 18:51:17,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Payment authorized for order 50612
+2026-06-20 18:52:22,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Received request POST /api/orders userId=1323
+2026-06-20 18:53:18,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7723
+2026-06-20 18:53:55,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Order 50615 created successfully amount=39351
+2026-06-20 18:55:21,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Order 50616 created successfully amount=20442
+2026-06-20 18:55:55,000 WARN  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Retrying operation attempt=1/3
+2026-06-20 18:56:58,000 WARN  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Retrying operation attempt=3/3
+2026-06-20 18:57:50,000 WARN  [http-nio-8080-exec-12] c.e.service.OrderService - Slow query detected took=3037ms threshold=1000ms
+2026-06-20 18:58:49,000 WARN  [http-nio-8080-exec-11] c.e.service.PaymentService - Slow query detected took=1814ms threshold=1000ms
+2026-06-20 18:59:39,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Received request POST /api/orders userId=5833
+2026-06-20 19:01:01,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Received request POST /api/orders userId=4925
+2026-06-20 19:02:22,000 INFO  [http-nio-8080-exec-9] c.e.web.OrderController - Cache hit for product catalog page=21
+2026-06-20 19:02:47,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50620
+2026-06-20 19:03:31,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Received request POST /api/orders userId=5039
+2026-06-20 19:03:56,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Healthcheck OK pool.active=10 pool.idle=4
+2026-06-20 19:05:23,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Order 50623 created successfully amount=49569
+2026-06-20 19:06:03,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 19:06:30,000 WARN  [http-nio-8080-exec-11] c.e.web.OrderController - Connection pool nearing capacity active=19/20
+2026-06-20 19:06:57,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Cache hit for product catalog page=21
+2026-06-20 19:07:24,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Cache hit for product catalog page=27
+2026-06-20 19:08:29,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Received request POST /api/orders userId=1453
+2026-06-20 19:09:06,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Order 50627 created successfully amount=25407
+2026-06-20 19:09:56,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Healthcheck OK pool.active=3 pool.idle=7
+2026-06-20 19:11:23,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Healthcheck OK pool.active=4 pool.idle=5
+2026-06-20 19:11:56,000 WARN  [http-nio-8080-exec-11] c.e.service.PaymentService - Slow query detected took=1593ms threshold=1000ms
+2026-06-20 19:13:13,000 INFO  [async-task-3] c.e.service.OrderService - Order 50630 created successfully amount=2819
+2026-06-20 19:14:03,000 INFO  [http-nio-8080-exec-4] c.e.repository.OrderRepository - Cache hit for product catalog page=17
+2026-06-20 19:15:31,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Cache hit for product catalog page=6
+2026-06-20 19:16:18,000 WARN  [http-nio-8080-exec-6] c.e.service.PaymentService - Connection pool nearing capacity active=19/20
+2026-06-20 19:17:27,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Received request POST /api/orders userId=6209
+2026-06-20 19:18:09,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=17
+2026-06-20 19:19:37,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50635 created successfully amount=48140
+2026-06-20 19:20:22,000 INFO  [scheduler-1] c.e.config.DataSourceHealth - Payment authorized for order 50636
+2026-06-20 19:20:59,000 ERROR [http-nio-8080-exec-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 19:21:39,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Cache hit for product catalog page=18
+2026-06-20 19:22:50,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Received request POST /api/orders userId=4063
+2026-06-20 19:23:38,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=8874
+2026-06-20 19:24:44,000 WARN  [http-nio-8080-exec-7] c.e.service.OrderService - Retrying operation attempt=1/3
+2026-06-20 19:25:30,000 WARN  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Retrying operation attempt=1/3
+2026-06-20 19:26:00,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50640 created successfully amount=10838
+2026-06-20 19:26:56,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50641 created successfully amount=16112
+2026-06-20 19:28:08,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=7
+2026-06-20 19:28:32,000 WARN  [async-task-3] c.e.service.PaymentService - Retrying operation attempt=1/3
+2026-06-20 19:29:49,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50643
+2026-06-20 19:31:16,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Received request POST /api/orders userId=2630
+2026-06-20 19:31:47,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 19:32:11,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50645
+2026-06-20 19:32:34,000 INFO  [async-task-3] c.e.service.PaymentService - Healthcheck OK pool.active=12 pool.idle=6
+2026-06-20 19:33:38,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=6548
+2026-06-20 19:34:21,000 INFO  [http-nio-8080-exec-1] c.e.service.OrderService - Cache hit for product catalog page=20
+2026-06-20 19:35:48,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=8 pool.idle=5
+2026-06-20 19:36:44,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Received request POST /api/orders userId=2741
+2026-06-20 19:37:24,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Healthcheck OK pool.active=11 pool.idle=6
+2026-06-20 19:37:59,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Healthcheck OK pool.active=11 pool.idle=6
+2026-06-20 19:38:29,000 WARN  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Connection pool nearing capacity active=15/20
+2026-06-20 19:38:58,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50653
+2026-06-20 19:40:08,000 ERROR [http-nio-8080-exec-12] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 19:41:26,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Cache hit for product catalog page=22
+2026-06-20 19:42:52,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Order 50655 created successfully amount=13438
+2026-06-20 19:43:31,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Received request POST /api/orders userId=4009
+2026-06-20 19:44:05,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Payment authorized for order 50657
+2026-06-20 19:45:24,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 19:46:07,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50658
+2026-06-20 19:47:22,000 INFO  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Payment authorized for order 50659
+2026-06-20 19:48:35,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Payment authorized for order 50660
+2026-06-20 19:49:56,000 INFO  [http-nio-8080-exec-7] c.e.service.OrderService - Healthcheck OK pool.active=5 pool.idle=5
+2026-06-20 19:51:14,000 WARN  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Retrying operation attempt=1/3
+2026-06-20 19:52:29,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Payment authorized for order 50662
+2026-06-20 19:53:41,000 INFO  [http-nio-8080-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=9 pool.idle=7
+2026-06-20 19:55:11,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Order 50664 created successfully amount=32902
+2026-06-20 19:56:25,000 WARN  [http-nio-8080-exec-9] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 19:56:45,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Payment authorized for order 50665
+2026-06-20 19:57:20,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Payment authorized for order 50666
+2026-06-20 19:58:42,000 INFO  [http-nio-8080-exec-11] c.e.repository.OrderRepository - Received request POST /api/orders userId=3130
+2026-06-20 19:59:14,000 INFO  [http-nio-8080-exec-11] c.e.config.DataSourceHealth - Healthcheck OK pool.active=9 pool.idle=3
+2026-06-20 19:59:59,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=7305
+2026-06-20 20:01:28,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Order 50670 created successfully amount=23584
+2026-06-20 20:02:08,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50671
+2026-06-20 20:03:35,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Cache hit for product catalog page=13
+2026-06-20 20:04:18,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Healthcheck OK pool.active=3 pool.idle=6
+2026-06-20 20:05:44,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Cache hit for product catalog page=12
+2026-06-20 20:06:15,000 INFO  [async-task-3] c.e.service.OrderService - Cache hit for product catalog page=23
+2026-06-20 20:07:22,000 INFO  [scheduler-1] c.e.web.OrderController - Payment authorized for order 50676
+2026-06-20 20:07:57,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Order 50677 created successfully amount=10245
+2026-06-20 20:08:55,000 INFO  [scheduler-1] c.e.web.OrderController - Received request POST /api/orders userId=6777
+2026-06-20 20:10:22,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Cache hit for product catalog page=26
+2026-06-20 20:11:28,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=8409
+2026-06-20 20:12:52,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Payment authorized for order 50681
+2026-06-20 20:13:20,000 WARN  [http-nio-8080-exec-10] c.e.web.OrderController - Retrying operation attempt=2/3
+2026-06-20 20:14:06,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Order 50682 created successfully amount=9984
+2026-06-20 20:15:18,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 20:16:45,000 INFO  [http-nio-8080-exec-2] c.e.web.OrderController - Healthcheck OK pool.active=4 pool.idle=3
+2026-06-20 20:17:18,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Received request POST /api/orders userId=5485
+2026-06-20 20:18:15,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Payment authorized for order 50685
+2026-06-20 20:19:10,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Healthcheck OK pool.active=12 pool.idle=4
+2026-06-20 20:20:05,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Cache hit for product catalog page=11
+2026-06-20 20:21:14,000 WARN  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Retrying operation attempt=1/3
+2026-06-20 20:21:42,000 WARN  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=19/20
+2026-06-20 20:22:49,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Order 50688 created successfully amount=1428
+2026-06-20 20:23:52,000 WARN  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Connection pool nearing capacity active=18/20
+2026-06-20 20:24:28,000 WARN  [http-nio-8080-exec-11] c.e.service.OrderService - Retrying operation attempt=3/3
+2026-06-20 20:25:22,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Cache hit for product catalog page=6
+2026-06-20 20:25:56,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Payment authorized for order 50690
+2026-06-20 20:27:11,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Order 50691 created successfully amount=9248
+2026-06-20 20:28:01,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=7 pool.idle=2
+2026-06-20 20:29:09,000 WARN  [http-nio-8080-exec-9] c.e.web.OrderController - Slow query detected took=3329ms threshold=1000ms
+2026-06-20 20:30:25,000 INFO  [http-nio-8080-exec-12] c.e.service.OrderService - Received request POST /api/orders userId=7073
+2026-06-20 20:30:59,000 INFO  [async-task-3] c.e.web.OrderController - Received request POST /api/orders userId=6503
+2026-06-20 20:31:50,000 WARN  [http-nio-8080-exec-8] c.e.web.OrderController - Slow query detected took=3129ms threshold=1000ms
+2026-06-20 20:32:58,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Payment authorized for order 50695
+2026-06-20 20:34:14,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1890
+2026-06-20 20:35:06,000 INFO  [http-nio-8080-exec-1] c.e.service.OrderService - Order 50697 created successfully amount=18944
+2026-06-20 20:36:08,000 INFO  [scheduler-1] c.e.service.OrderService - Order 50698 created successfully amount=46972
+2026-06-20 20:36:55,000 WARN  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Connection pool nearing capacity active=15/20
+2026-06-20 20:37:27,000 WARN  [http-nio-8080-exec-8] c.e.service.OrderService - Retrying operation attempt=2/3
+2026-06-20 20:38:11,000 WARN  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Retrying operation attempt=1/3
+2026-06-20 20:38:53,000 INFO  [http-nio-8080-exec-5] c.e.repository.OrderRepository - Received request POST /api/orders userId=3789
+2026-06-20 20:39:49,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Payment authorized for order 50700
+2026-06-20 20:41:11,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Healthcheck OK pool.active=5 pool.idle=7
+2026-06-20 20:41:40,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Cache hit for product catalog page=15
+2026-06-20 20:43:10,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=2
+2026-06-20 20:43:53,000 INFO  [async-task-3] c.e.service.OrderService - Received request POST /api/orders userId=6088
+2026-06-20 20:44:29,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=25
+2026-06-20 20:44:59,000 INFO  [http-nio-8080-exec-4] c.e.web.OrderController - Healthcheck OK pool.active=7 pool.idle=4
+2026-06-20 20:45:42,000 INFO  [http-nio-8080-exec-7] c.e.service.PaymentService - Payment authorized for order 50707
+2026-06-20 20:47:00,000 WARN  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Retrying operation attempt=3/3
+2026-06-20 20:48:14,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Healthcheck OK pool.active=6 pool.idle=7
+2026-06-20 20:49:11,000 ERROR [http-nio-8080-exec-8] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 20:49:51,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=23
+2026-06-20 20:51:03,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=11 pool.idle=1
+2026-06-20 20:51:51,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Payment authorized for order 50711
+2026-06-20 20:52:38,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Order 50712 created successfully amount=20727
+2026-06-20 20:53:37,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Order 50713 created successfully amount=2201
+2026-06-20 20:54:07,000 INFO  [http-nio-8080-exec-9] c.e.service.OrderService - Payment authorized for order 50714
+2026-06-20 20:55:11,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Cache hit for product catalog page=10
+2026-06-20 20:55:43,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Order 50716 created successfully amount=1938
+2026-06-20 20:56:06,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Healthcheck OK pool.active=12 pool.idle=6
+2026-06-20 20:56:42,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Received request POST /api/orders userId=7205
+2026-06-20 20:57:42,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Payment authorized for order 50719
+2026-06-20 20:59:08,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 20:59:51,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Payment authorized for order 50720
+2026-06-20 21:00:26,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3231
+2026-06-20 21:01:06,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Payment authorized for order 50722
+2026-06-20 21:01:53,000 INFO  [http-nio-8080-exec-12] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=9327
+2026-06-20 21:03:17,000 INFO  [http-nio-8080-exec-2] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50724
+2026-06-20 21:03:44,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Cache hit for product catalog page=15
+2026-06-20 21:04:57,000 WARN  [http-nio-8080-exec-5] c.e.service.OrderService - Retrying operation attempt=2/3
+2026-06-20 21:05:46,000 INFO  [http-nio-8080-exec-2] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1185
+2026-06-20 21:06:58,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Healthcheck OK pool.active=8 pool.idle=4
+2026-06-20 21:08:27,000 INFO  [http-nio-8080-exec-10] c.e.config.DataSourceHealth - Cache hit for product catalog page=3
+2026-06-20 21:09:06,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=1397
+2026-06-20 21:09:29,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Healthcheck OK pool.active=10 pool.idle=7
+2026-06-20 21:10:13,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=1324
+2026-06-20 21:11:01,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=2
+2026-06-20 21:12:26,000 WARN  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=16/20
+2026-06-20 21:13:26,000 INFO  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Cache hit for product catalog page=6
+2026-06-20 21:14:16,000 INFO  [http-nio-8080-exec-8] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50734
+2026-06-20 21:14:52,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Payment authorized for order 50735
+2026-06-20 21:15:35,000 INFO  [http-nio-8080-exec-5] c.e.web.OrderController - Order 50736 created successfully amount=37376
+2026-06-20 21:16:26,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Received request POST /api/orders userId=6698
+2026-06-20 21:17:36,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Payment authorized for order 50738
+2026-06-20 21:19:05,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Order 50739 created successfully amount=8612
+2026-06-20 21:20:07,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=15
+2026-06-20 21:20:39,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Cache hit for product catalog page=25
+2026-06-20 21:21:48,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 21:22:14,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Cache hit for product catalog page=10
+2026-06-20 21:23:28,000 WARN  [http-nio-8080-exec-12] c.e.config.DataSourceHealth - Slow query detected took=2353ms threshold=1000ms
+2026-06-20 21:24:20,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 21:24:58,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Order 50743 created successfully amount=26417
+2026-06-20 21:25:33,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Order 50744 created successfully amount=36928
+2026-06-20 21:26:54,000 WARN  [http-nio-8080-exec-11] c.e.service.PaymentService - Connection pool nearing capacity active=15/20
+2026-06-20 21:27:20,000 INFO  [http-nio-8080-exec-2] c.e.service.PaymentService - Healthcheck OK pool.active=11 pool.idle=7
+2026-06-20 21:27:56,000 WARN  [http-nio-8080-exec-6] c.e.web.OrderController - Connection pool nearing capacity active=16/20
+2026-06-20 21:28:56,000 INFO  [http-nio-8080-exec-1] c.e.service.OrderService - Order 50746 created successfully amount=26867
+2026-06-20 21:30:11,000 INFO  [http-nio-8080-exec-6] c.e.service.OrderService - Healthcheck OK pool.active=6 pool.idle=7
+2026-06-20 21:31:02,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Healthcheck OK pool.active=11 pool.idle=5
+2026-06-20 21:31:25,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=25
+2026-06-20 21:32:45,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Received request POST /api/orders userId=8072
+2026-06-20 21:33:59,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=8
+2026-06-20 21:35:21,000 INFO  [http-nio-8080-exec-4] c.e.service.OrderService - Received request POST /api/orders userId=9428
+2026-06-20 21:35:53,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Cache hit for product catalog page=15
+2026-06-20 21:36:22,000 ERROR [http-nio-8080-exec-2] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 21:37:12,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50754 created successfully amount=39108
+2026-06-20 21:38:05,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Healthcheck OK pool.active=2 pool.idle=3
+2026-06-20 21:39:15,000 WARN  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Slow query detected took=3498ms threshold=1000ms
+2026-06-20 21:40:15,000 INFO  [http-nio-8080-exec-4] c.e.config.DataSourceHealth - Order 50756 created successfully amount=29121
+2026-06-20 21:41:38,000 INFO  [scheduler-1] c.e.config.DataSourceHealth - Received request POST /api/orders userId=5939
+2026-06-20 21:43:03,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Cache hit for product catalog page=27
+2026-06-20 21:43:38,000 ERROR [http-nio-8080-exec-4] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 21:44:56,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Healthcheck OK pool.active=12 pool.idle=6
+2026-06-20 21:46:08,000 INFO  [http-nio-8080-exec-7] c.e.service.OrderService - Healthcheck OK pool.active=5 pool.idle=7
+2026-06-20 21:46:51,000 ERROR [http-nio-8080-exec-11] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 21:47:19,000 INFO  [http-nio-8080-exec-3] c.e.service.PaymentService - Cache hit for product catalog page=15
+2026-06-20 21:47:49,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Order 50762 created successfully amount=21185
+2026-06-20 21:48:26,000 WARN  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Slow query detected took=1077ms threshold=1000ms
+2026-06-20 21:49:02,000 INFO  [async-task-3] c.e.service.PaymentService - Received request POST /api/orders userId=2713
+2026-06-20 21:50:25,000 WARN  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Retrying operation attempt=1/3
+2026-06-20 21:51:54,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Payment authorized for order 50764
+2026-06-20 21:53:00,000 WARN  [async-task-3] c.e.web.OrderController - Connection pool nearing capacity active=16/20
+2026-06-20 21:54:19,000 WARN  [http-nio-8080-exec-4] c.e.service.OrderService - Connection pool nearing capacity active=17/20
+2026-06-20 21:54:58,000 INFO  [http-nio-8080-exec-8] c.e.service.PaymentService - Cache hit for product catalog page=9
+2026-06-20 21:56:07,000 INFO  [scheduler-1] c.e.service.PaymentService - Payment authorized for order 50766
+2026-06-20 21:56:41,000 INFO  [scheduler-1] c.e.service.PaymentService - Cache hit for product catalog page=21
+2026-06-20 21:57:10,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Received request POST /api/orders userId=7416
+2026-06-20 21:57:59,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=5
+2026-06-20 21:58:28,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Payment authorized for order 50770
+2026-06-20 21:59:51,000 INFO  [async-task-3] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=1484
+2026-06-20 22:01:14,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Order 50772 created successfully amount=23484
+2026-06-20 22:02:18,000 WARN  [http-nio-8080-exec-8] c.e.service.PaymentService - Slow query detected took=2466ms threshold=1000ms
+2026-06-20 22:03:29,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Received request POST /api/orders userId=1922
+2026-06-20 22:04:16,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Order 50774 created successfully amount=16502
+2026-06-20 22:04:38,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Cache hit for product catalog page=25
+2026-06-20 22:05:29,000 INFO  [http-nio-8080-exec-1] c.e.config.DataSourceHealth - Payment authorized for order 50776
+2026-06-20 22:06:03,000 WARN  [scheduler-1] c.e.web.OrderController - Retrying operation attempt=3/3
+2026-06-20 22:06:50,000 INFO  [scheduler-1] c.e.service.OrderService - Received request POST /api/orders userId=9890
+2026-06-20 22:07:26,000 WARN  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Connection pool nearing capacity active=15/20
+2026-06-20 22:08:42,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Payment authorized for order 50778
+2026-06-20 22:09:31,000 INFO  [scheduler-1] c.e.service.OrderService - Cache hit for product catalog page=15
+2026-06-20 22:10:26,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Cache hit for product catalog page=19
+2026-06-20 22:11:32,000 INFO  [http-nio-8080-exec-1] c.e.repository.OrderRepository - Cache hit for product catalog page=8
+2026-06-20 22:12:17,000 INFO  [http-nio-8080-exec-6] c.e.service.PaymentService - Received request POST /api/orders userId=6104
+2026-06-20 22:13:38,000 INFO  [scheduler-1] c.e.service.OrderService - Healthcheck OK pool.active=12 pool.idle=1
+2026-06-20 22:14:23,000 INFO  [scheduler-1] c.e.service.OrderService - Received request POST /api/orders userId=3374
+2026-06-20 22:15:44,000 INFO  [http-nio-8080-exec-4] c.e.service.PaymentService - Order 50785 created successfully amount=20980
+2026-06-20 22:16:29,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:16:59,000 ERROR [http-nio-8080-exec-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:17:33,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Cache hit for product catalog page=26
+2026-06-20 22:18:10,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Order 50787 created successfully amount=24875
+2026-06-20 22:19:36,000 ERROR [async-task-3] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:20:28,000 ERROR [http-nio-8080-exec-7] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:21:43,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Cache hit for product catalog page=22
+2026-06-20 22:22:37,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Cache hit for product catalog page=18
+2026-06-20 22:23:31,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=7
+2026-06-20 22:23:57,000 INFO  [http-nio-8080-exec-12] c.e.web.OrderController - Order 50791 created successfully amount=20653
+2026-06-20 22:25:15,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Healthcheck OK pool.active=2 pool.idle=8
+2026-06-20 22:25:38,000 INFO  [http-nio-8080-exec-1] c.e.service.OrderService - Order 50793 created successfully amount=38482
+2026-06-20 22:26:39,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Order 50794 created successfully amount=25843
+2026-06-20 22:28:07,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Payment authorized for order 50795
+2026-06-20 22:29:25,000 INFO  [http-nio-8080-exec-10] c.e.service.PaymentService - Healthcheck OK pool.active=5 pool.idle=1
+2026-06-20 22:30:17,000 INFO  [async-task-3] c.e.service.OrderService - Order 50797 created successfully amount=12960
+2026-06-20 22:31:43,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=3160
+2026-06-20 22:32:06,000 INFO  [http-nio-8080-exec-5] c.e.service.PaymentService - Healthcheck OK pool.active=4 pool.idle=3
+2026-06-20 22:32:55,000 ERROR [http-nio-8080-exec-5] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:34:05,000 INFO  [scheduler-1] c.e.service.PaymentService - Payment authorized for order 50800
+2026-06-20 22:35:23,000 INFO  [http-nio-8080-exec-9] c.e.repository.OrderRepository - Payment authorized for order 50801
+2026-06-20 22:36:44,000 INFO  [http-nio-8080-exec-7] c.e.config.DataSourceHealth - Order 50802 created successfully amount=25791
+2026-06-20 22:38:02,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Payment authorized for order 50803
+2026-06-20 22:39:25,000 INFO  [http-nio-8080-exec-10] c.e.web.OrderController - Payment authorized for order 50804
+2026-06-20 22:40:30,000 INFO  [http-nio-8080-exec-3] c.e.config.DataSourceHealth - Payment authorized for order 50805
+2026-06-20 22:41:24,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Order 50806 created successfully amount=3516
+2026-06-20 22:42:49,000 INFO  [http-nio-8080-exec-11] c.e.service.OrderService - Received request POST /api/orders userId=9536
+2026-06-20 22:43:29,000 INFO  [http-nio-8080-exec-10] c.e.repository.OrderRepository - Order 50808 created successfully amount=32018
+2026-06-20 22:43:55,000 ERROR [http-nio-8080-exec-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:45:05,000 INFO  [http-nio-8080-exec-8] c.e.config.DataSourceHealth - Healthcheck OK pool.active=10 pool.idle=1
+2026-06-20 22:45:29,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Cache hit for product catalog page=3
+2026-06-20 22:46:04,000 WARN  [http-nio-8080-exec-5] c.e.service.OrderService - Connection pool nearing capacity active=16/20
+2026-06-20 22:47:17,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Healthcheck OK pool.active=10 pool.idle=4
+2026-06-20 22:47:39,000 INFO  [http-nio-8080-exec-8] c.e.web.OrderController - Order 50812 created successfully amount=42558
+2026-06-20 22:48:49,000 INFO  [http-nio-8080-exec-10] c.e.service.OrderService - Received request POST /api/orders userId=7856
+2026-06-20 22:49:25,000 INFO  [http-nio-8080-exec-5] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Payment authorized for order 50814
+2026-06-20 22:49:54,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Cache hit for product catalog page=27
+2026-06-20 22:50:49,000 INFO  [scheduler-1] c.e.web.OrderController - Cache hit for product catalog page=30
+2026-06-20 22:52:05,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Cache hit for product catalog page=9
+2026-06-20 22:53:25,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Healthcheck OK pool.active=7 pool.idle=2
+2026-06-20 22:54:06,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Cache hit for product catalog page=8
+2026-06-20 22:54:59,000 ERROR [http-nio-8080-exec-10] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 22:55:46,000 WARN  [http-nio-8080-exec-5] c.e.service.PaymentService - Slow query detected took=1768ms threshold=1000ms
+2026-06-20 22:56:54,000 INFO  [http-nio-8080-exec-9] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=12
+2026-06-20 22:58:08,000 WARN  [http-nio-8080-exec-7] c.e.repository.OrderRepository - Slow query detected took=1232ms threshold=1000ms
+2026-06-20 22:59:07,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Cache hit for product catalog page=18
+2026-06-20 23:00:01,000 INFO  [http-nio-8080-exec-1] c.e.web.OrderController - Order 50822 created successfully amount=48340
+2026-06-20 23:00:34,000 INFO  [http-nio-8080-exec-11] c.e.web.OrderController - Received request POST /api/orders userId=8063
+2026-06-20 23:01:43,000 WARN  [http-nio-8080-exec-12] c.e.service.OrderService - Retrying operation attempt=2/3
+2026-06-20 23:02:29,000 INFO  [http-nio-8080-exec-5] c.e.service.OrderService - Payment authorized for order 50824
+2026-06-20 23:03:36,000 INFO  [http-nio-8080-exec-2] c.e.repository.OrderRepository - Cache hit for product catalog page=21
+2026-06-20 23:04:35,000 INFO  [http-nio-8080-exec-3] c.e.repository.OrderRepository - Order 50826 created successfully amount=22243
+2026-06-20 23:05:12,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Received request POST /api/orders userId=9440
+2026-06-20 23:06:19,000 INFO  [http-nio-8080-exec-12] c.e.service.PaymentService - Received request POST /api/orders userId=8483
+2026-06-20 23:07:11,000 INFO  [http-nio-8080-exec-6] c.e.config.DataSourceHealth - Payment authorized for order 50829
+2026-06-20 23:08:05,000 INFO  [async-task-3] c.e.web.OrderController - Cache hit for product catalog page=30
+2026-06-20 23:09:13,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Payment authorized for order 50831
+2026-06-20 23:10:15,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Healthcheck OK pool.active=10 pool.idle=5
+2026-06-20 23:11:27,000 INFO  [http-nio-8080-exec-7] c.e.web.OrderController - Cache hit for product catalog page=29
+2026-06-20 23:11:52,000 ERROR [http-nio-8080-exec-2] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 23:12:23,000 INFO  [http-nio-8080-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50834 created successfully amount=29732
+2026-06-20 23:13:00,000 ERROR [scheduler-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 23:14:29,000 INFO  [http-nio-8080-exec-6] c.e.web.OrderController - Received request POST /api/orders userId=1824
+2026-06-20 23:14:57,000 INFO  [async-task-3] c.e.repository.OrderRepository - Healthcheck OK pool.active=6 pool.idle=5
+2026-06-20 23:15:58,000 INFO  [scheduler-1] c.e.repository.OrderRepository - Healthcheck OK pool.active=3 pool.idle=7
+2026-06-20 23:16:49,000 INFO  [http-nio-8080-exec-8] c.e.service.OrderService - Order 50838 created successfully amount=25089
+2026-06-20 23:17:58,000 INFO  [http-nio-8080-exec-1] c.e.service.PaymentService - Healthcheck OK pool.active=5 pool.idle=4
+2026-06-20 23:18:19,000 ERROR [http-nio-8080-exec-1] c.e.web.OrderController - Unhandled validation error: field 'email' must not be blank
+java.lang.IllegalArgumentException: field 'email' must not be blank
+	at c.e.web.OrderController.validate(OrderController.java:88)
+	at c.e.web.OrderController.create(OrderController.java:52)
+2026-06-20 23:18:48,000 INFO  [http-nio-8080-exec-12] c.e.repository.OrderRepository - Order 50840 created successfully amount=34096
+2026-06-20 23:19:28,000 INFO  [http-nio-8080-exec-9] c.e.config.DataSourceHealth - Order 50841 created successfully amount=47030
+2026-06-20 23:20:38,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Cache hit for product catalog page=6
+2026-06-20 23:21:31,000 INFO  [async-task-3] c.e.web.OrderController - Payment authorized for order 50843
+2026-06-20 23:22:42,000 INFO  [async-task-3] c.e.config.DataSourceHealth - Healthcheck OK pool.active=5 pool.idle=8
+2026-06-20 23:23:04,000 INFO  [http-nio-8080-exec-6] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50845 created successfully amount=10662
+2026-06-20 23:23:30,000 INFO  [http-nio-8080-exec-3] c.e.web.OrderController - Healthcheck OK pool.active=10 pool.idle=8
+2026-06-20 23:23:56,000 INFO  [http-nio-8080-exec-2] c.e.service.OrderService - Cache hit for product catalog page=22
+2026-06-20 23:24:38,000 INFO  [http-nio-8080-exec-11] c.e.service.PaymentService - Order 50848 created successfully amount=14343
+2026-06-20 23:25:54,000 INFO  [http-nio-8080-exec-10] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Received request POST /api/orders userId=4172
+2026-06-20 23:27:00,000 INFO  [http-nio-8080-exec-8] c.e.repository.OrderRepository - Healthcheck OK pool.active=9 pool.idle=7
+2026-06-20 23:27:29,000 INFO  [http-nio-8080-exec-5] c.e.config.DataSourceHealth - Received request POST /api/orders userId=3768
+2026-06-20 23:27:59,000 INFO  [http-nio-8080-exec-7] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Healthcheck OK pool.active=4 pool.idle=2
+2026-06-20 23:29:25,000 INFO  [http-nio-8080-exec-1] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Order 50853 created successfully amount=21745
+2026-06-20 23:29:45,000 INFO  [http-nio-8080-exec-6] c.e.repository.OrderRepository - Healthcheck OK pool.active=3 pool.idle=8
